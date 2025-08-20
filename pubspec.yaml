@@ -1,0 +1,39 @@
+name: fyandono
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.0
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  meta: ^1.16.0
+  equatable: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/font/SFPRODISPLAYREGULAR.otf
+          weight: 400
+        - asset: assets/font/SFPRODISPLAYBOLD.otf
+          weight: 700
+        - asset: assets/font/SFPRODISPLAYMEDIUM.otf
+          weight: 500
+        - asset: assets/font/SFPRODISPLAYLIGHTITALIC.otf
+          style: italic
+          weight: 300
+
+  assets:
+    - assets/sounds/
