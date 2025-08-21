@@ -44,6 +44,7 @@ class _PianoWidgetState extends State<PianoWidget> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         PhysicalModel(
+          borderRadius: BorderRadius.circular(8),
           clipBehavior: Clip.none,
           elevation: 8,
           color: Colors.transparent,

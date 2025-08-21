@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fyandono/colors/colors.dart';
 import 'package:fyandono/widgets/fade_text/bloc/fade_text_bloc.dart';
 import 'package:fyandono/widgets/fade_text/fade_in_text.dart';
 import 'package:fyandono/widgets/text.dart';
@@ -20,7 +21,7 @@ class HobbiesWidget extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        MyText(text: title, fontSize: 32),
+        MyText(text: title, fontSize: 32, color: AppColors.grey1000,),
         SizedBox(height: 24),
         hobby,
         SizedBox(height: 28),

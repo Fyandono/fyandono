@@ -73,8 +73,8 @@ class _WaveWithShadowPainter extends CustomPainter {
     // Shadow paint
     final shadowPaint =
         Paint()
-          ..color = AppColors.grey300
-          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 6);
+          ..color = AppColors.grey400
+          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 8);
 
     final shadowPath = Path();
     shadowPath.moveTo(0, size.height / 2 + waveHeight + 4);
