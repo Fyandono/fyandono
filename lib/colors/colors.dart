@@ -41,15 +41,15 @@ class AppColors {
 }
 
 final MaterialColor primarySwatch =
-    MaterialColor(AppColors.primary.toARGB32(), <int, Color>{
-      50: AppColors.primary.withValues(alpha: 0.1),
-      100: AppColors.primary.withValues(alpha: 0.2),
-      200: AppColors.primary.withValues(alpha: 0.4),
-      300: AppColors.primary.withValues(alpha: 0.6),
-      400: AppColors.primary.withValues(alpha: 0.8),
-      500: AppColors.primary.withValues(alpha: 1),
-      600: AppColors.primary.withValues(alpha: 1),
-      700: AppColors.primary.withValues(alpha: 1),
-      800: AppColors.primary.withValues(alpha: 1),
-      900: AppColors.primary.withValues(alpha: 1),
+    MaterialColor(AppColors.blueWater.toARGB32(), <int, Color>{
+      50: AppColors.blueWater.withValues(alpha: 0.1),
+      100: AppColors.blueWater.withValues(alpha: 0.2),
+      200: AppColors.blueWater.withValues(alpha: 0.4),
+      300: AppColors.blueWater.withValues(alpha: 0.6),
+      400: AppColors.blueWater.withValues(alpha: 0.8),
+      500: AppColors.blueWater.withValues(alpha: 1),
+      600: AppColors.blueWater.withValues(alpha: 1),
+      700: AppColors.blueWater.withValues(alpha: 1),
+      800: AppColors.blueWater.withValues(alpha: 1),
+      900: AppColors.blueWater.withValues(alpha: 1),
     });
